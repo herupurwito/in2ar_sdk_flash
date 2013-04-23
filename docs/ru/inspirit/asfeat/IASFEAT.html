@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../override.css" type="text/css"><meta name="keywords" content="IASFEAT,ru.inspirit.asfeat.IASFEAT,addListener,addNormal,addReferenceObject,destroy,destroy,detect,getConfidence,getConfidenceMapInstance,getIntrinsicParams,getLSHStatistic,getLightMapInstance,getNormalColor,init,init,invalidate,removeListener,removeReferenceObject,resetDetection,setMatchThreshold,setMaxReferencesPerFrame,setMultiLevelMode,setNumTrackIterations,setReference,setUseLSHDictionary,setup,setup,setupIndexing,unmapSample,updateIntrinsicParams,updateMap"><title>ru.inspirit.asfeat.IASFEAT</title></head><body><script language="javascript" type="text/javascript" src="../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'IASFEAT - ASFEAT/IN2AR Documentation';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">API Documentation</td><td class="titleTableTopNav" align="right"><a href="../../../package-summary.html" onclick="loadClassListFrame('../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../class-summary.html" onclick="loadClassListFrame('../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../all-index-A.html" onclick="loadClassListFrame('../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../index.html?ru/inspirit/asfeat/IASFEAT.html&amp;ru/inspirit/asfeat/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">IASFEAT</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#methodSummary">Methods</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("IASFEAT"); titleBar_setSubNav(false,false,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">ru.inspirit.asfeat</a></td></tr><tr><td class="classHeaderTableLabel">Interface</td><td class="classSignature">public  interface  IASFEAT</td></tr></table><p></p><p></p><p></p>
+	 <p></p><br/><hr></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#addListener()" class="signatureLink">addListener</a>(type:String, callback:Function):void</div><div class="summaryTableDescription">
+		 add lib listener to specific event
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#addReferenceObject()" class="signatureLink">addReferenceObject</a>(data:ByteArray):int</div><div class="summaryTableDescription">
+		 adding reference object (ass) data
+         </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#destroy()" class="signatureLink">destroy</a>():*</div><div class="summaryTableDescription">
+		 remove internal event listeners and clear some instance
+		 you will have to call init before you can
+		 use this instance again
+		 
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#detect()" class="signatureLink">detect</a>(bmp:BitmapData):void</div><div class="summaryTableDescription">
+		 main dection rountine call
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getConfidenceMapInstance()" class="signatureLink">getConfidenceMapInstance</a>():<a href="../../../ru/inspirit/asfeat/IConfidenceMap.html">IConfidenceMap</a></div><div class="summaryTableDescription">
+		 Create ConfidenceMap class instance
+		 
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getIntrinsicParams()" class="signatureLink">getIntrinsicParams</a>():<a href="../../../ru/inspirit/asfeat/calibration/IntrinsicParameters.html">IntrinsicParameters</a></div><div class="summaryTableDescription">
+		 get link to IntrinsicParameters instance
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getLightMapInstance()" class="signatureLink">getLightMapInstance</a>():<a href="../../../ru/inspirit/asfeat/ILightMap.html">ILightMap</a></div><div class="summaryTableDescription">
+		 Create LightMap class instace
+		 
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getLSHStatistic()" class="signatureLink">getLSHStatistic</a>():<a href="../../../ru/inspirit/asfeat/lsh/LSHStatistic.html">LSHStatistic</a></div><div class="summaryTableDescription">
+         Get LSH Dictionary information
+         </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#init()" class="signatureLink">init</a>(inputWidth:int, inputHeight:int, maxPointsToDetect:int, maxReferenceObjects:int, maxTransformError:int, stg:Stage):void</div><div class="summaryTableDescription">
+		 main init method should
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#removeListener()" class="signatureLink">removeListener</a>(type:String, callback:Function):void</div><div class="summaryTableDescription">
+		 remove lib listener to specific event
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#removeReferenceObject()" class="signatureLink">removeReferenceObject</a>(id:int):Boolean</div><div class="summaryTableDescription">
+		 remove reference object
+         </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#resetDetection()" class="signatureLink">resetDetection</a>():void</div><div class="summaryTableDescription">
+		 resets detection process
+		 next detect step will behave like first one
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setMatchThreshold()" class="signatureLink">setMatchThreshold</a>(val:uint = 32):void</div><div class="summaryTableDescription">
+		 Descriptor matching threshold
+		 higher value less precision more matches
+		 lower value higher precision less matches
+		 default value is 32
+		 
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setMaxReferencesPerFrame()" class="signatureLink">setMaxReferencesPerFrame</a>(count:int):void</div><div class="summaryTableDescription">
+		 force to stop searching any other references after we can
+         track COUNT references
+		 as soon as tracking lost it will start searching again
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setMultiLevelMode()" class="signatureLink">setMultiLevelMode</a>(numLevels:int):void</div><div class="summaryTableDescription">
+         Set number of scale levels used for detection
+         Available values from 0 to 2; default is zero
+         0 - only original image used for detection/tracking
+         1 - two levels used: original + width/2 x height/2
+         2 - three levels: original + width/2 x height/2 + width/4 x height/4 
+         </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setNumTrackIterations()" class="signatureLink">setNumTrackIterations</a>(val:int):void</div><div class="summaryTableDescription">
+		 Specify how many refine iterations applied to track reference
+		 
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setupIndexing()" class="signatureLink">setupIndexing</a>(keySize:int = 12, numTables:int = 10, multiProbe:Boolean = true):void</div><div class="summaryTableDescription">
+		 Index references data using LSH tables
+         matching points is way faster using LSH
+         however if you work with small amount of points bruteforce may be faster
+		 
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setUseLSHDictionary()" class="signatureLink">setUseLSHDictionary</a>(enabled:Boolean):void</div><div class="summaryTableDescription">
+         Allows to switch between brute force and LSH Dictionary matching
+         
+         </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#updateIntrinsicParams()" class="signatureLink">updateIntrinsicParams</a>():void</div><div class="summaryTableDescription">
+		 update all internal rountines that uses intrinsic params
+		 should be called after u changed IntrinsicParameters
+		 </div></td><td class="summaryTableOwnerCol">IASFEAT</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="addListener()"></a><a name="addListener(String,Function)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">addListener</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public function addListener(type:String, callback:Function):void</code><p></p><p></p><p>
+		 add lib listener to specific event
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">type</span>:String</code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">callback</span>:Function</code></td></tr></table></p></div><a name="addReferenceObject()"></a><a name="addReferenceObject(flash.utils.ByteArray)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">addReferenceObject</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function addReferenceObject(data:ByteArray):int</code><p></p><p></p><p>
+		 adding reference object (ass) data
+         </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">data</span>:ByteArray</code></td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>int</code> &mdash; added reference ID if adding failed it will return -1
+		 </td></tr></table></div><a name="destroy()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">destroy</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function destroy():*</code><p></p><p></p><p>
+		 remove internal event listeners and clear some instance
+		 you will have to call <code>init</code> before you can
+		 use this instance again
+		 
+		 </p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>*</code></td></tr></table></div><a name="detect()"></a><a name="detect(flash.display.BitmapData)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">detect</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function detect(bmp:BitmapData):void</code><p></p><p></p><p>
+		 main dection rountine call
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">bmp</span>:BitmapData</code> &mdash; input source BitmapData
+		 </td></tr></table></p></div><a name="getConfidenceMapInstance()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getConfidenceMapInstance</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function getConfidenceMapInstance():<a href="../../../ru/inspirit/asfeat/IConfidenceMap.html">IConfidenceMap</a></code><p></p><p></p><p>
+		 Create ConfidenceMap class instance
+		 
+		 </p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code><a href="../../../ru/inspirit/asfeat/IConfidenceMap.html">IConfidenceMap</a></code> &mdash; ConfidenceMap class instance
+		 </td></tr></table></div><a name="getIntrinsicParams()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getIntrinsicParams</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function getIntrinsicParams():<a href="../../../ru/inspirit/asfeat/calibration/IntrinsicParameters.html">IntrinsicParameters</a></code><p></p><p></p><p>
+		 get link to IntrinsicParameters instance
+		 </p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code><a href="../../../ru/inspirit/asfeat/calibration/IntrinsicParameters.html">IntrinsicParameters</a></code></td></tr></table></div><a name="getLightMapInstance()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getLightMapInstance</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function getLightMapInstance():<a href="../../../ru/inspirit/asfeat/ILightMap.html">ILightMap</a></code><p></p><p></p><p>
+		 Create LightMap class instace
+		 
+		 </p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code><a href="../../../ru/inspirit/asfeat/ILightMap.html">ILightMap</a></code> &mdash; LightMap class instance
+		 </td></tr></table></div><a name="getLSHStatistic()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getLSHStatistic</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function getLSHStatistic():<a href="../../../ru/inspirit/asfeat/lsh/LSHStatistic.html">LSHStatistic</a></code><p></p><p></p><p>
+         Get LSH Dictionary information
+         </p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code><a href="../../../ru/inspirit/asfeat/lsh/LSHStatistic.html">LSHStatistic</a></code></td></tr></table></div><a name="init()"></a><a name="init(int,int,int,int,int,flash.display.Stage)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">init</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function init(inputWidth:int, inputHeight:int, maxPointsToDetect:int, maxReferenceObjects:int, maxTransformError:int, stg:Stage):void</code><p></p><p></p><p>
+		 main init method should
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">inputWidth</span>:int</code> &mdash; 		input BitmapData width
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">inputHeight</span>:int</code> &mdash; 		input BitmapData height
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">maxPointsToDetect</span>:int</code> &mdash; 	max points allowed for analyzation
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">maxReferenceObjects</span>:int</code> &mdash; max reference objects to be used
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">maxTransformError</span>:int</code> &mdash; 	max allowed transform/reprojection error
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">stg</span>:Stage</code> &mdash; 				link to SWF Stage instance
+		 </td></tr></table></p></div><a name="removeListener()"></a><a name="removeListener(String,Function)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">removeListener</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function removeListener(type:String, callback:Function):void</code><p></p><p></p><p>
+		 remove lib listener to specific event
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">type</span>:String</code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">callback</span>:Function</code></td></tr></table></p></div><a name="removeReferenceObject()"></a><a name="removeReferenceObject(int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">removeReferenceObject</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function removeReferenceObject(id:int):Boolean</code><p></p><p></p><p>
+		 remove reference object
+         </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">id</span>:int</code> &mdash; reference ID you want to remove
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code></td></tr></table></div><a name="resetDetection()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">resetDetection</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function resetDetection():void</code><p></p><p></p><p>
+		 resets detection process
+		 next detect step will behave like first one
+		 </p></div><a name="setMatchThreshold()"></a><a name="setMatchThreshold(uint)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setMatchThreshold</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setMatchThreshold(val:uint = 32):void</code><p></p><p></p><p>
+		 Descriptor matching threshold
+		 higher value less precision more matches
+		 lower value higher precision less matches
+		 default value is 32
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">val</span>:uint</code> (default = <code>32</code>)<code></code> &mdash; threshold value to estimate a match
+		 </td></tr></table></p></div><a name="setMaxReferencesPerFrame()"></a><a name="setMaxReferencesPerFrame(int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setMaxReferencesPerFrame</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setMaxReferencesPerFrame(count:int):void</code><p></p><p></p><p>
+		 force to stop searching any other references after we can
+         track COUNT references
+		 as soon as tracking lost it will start searching again
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">count</span>:int</code></td></tr></table></p></div><a name="setMultiLevelMode()"></a><a name="setMultiLevelMode(int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setMultiLevelMode</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setMultiLevelMode(numLevels:int):void</code><p></p><p></p><p>
+         Set number of scale levels used for detection
+         Available values from 0 to 2; default is zero
+         0 - only original image used for detection/tracking
+         1 - two levels used: original + width/2 x height/2
+         2 - three levels: original + width/2 x height/2 + width/4 x height/4 
+         </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">numLevels</span>:int</code> &mdash; number of scales used for detection
+         </td></tr></table></p></div><a name="setNumTrackIterations()"></a><a name="setNumTrackIterations(int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setNumTrackIterations</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setNumTrackIterations(val:int):void</code><p></p><p></p><p>
+		 Specify how many refine iterations applied to track reference
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">val</span>:int</code> &mdash; how many refine iterations applied during tracking
+		 </td></tr></table></p></div><a name="setupIndexing()"></a><a name="setupIndexing(int,int,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setupIndexing</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setupIndexing(keySize:int = 12, numTables:int = 10, multiProbe:Boolean = true):void</code><p></p><p></p><p>
+		 Index references data using LSH tables
+         matching points is way faster using LSH
+         however if you work with small amount of points bruteforce may be faster
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">keySize</span>:int</code> (default = <code>12</code>)<code></code> &mdash; 	number of descriptor bits used to generate LSH table keys
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">numTables</span>:int</code> (default = <code>10</code>)<code></code> &mdash; amount of LSH tables used to index data
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">multiProbe</span>:Boolean</code> (default = <code>true</code>)<code></code></td></tr></table></p></div><a name="setUseLSHDictionary()"></a><a name="setUseLSHDictionary(Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setUseLSHDictionary</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setUseLSHDictionary(enabled:Boolean):void</code><p></p><p></p><p>
+         Allows to switch between brute force and LSH Dictionary matching
+         
+         </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">enabled</span>:Boolean</code> &mdash;     enable/disable using LSH Dictionary for matching
+         </td></tr></table></p></div><a name="updateIntrinsicParams()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">updateIntrinsicParams</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function updateIntrinsicParams():void</code><p></p><p></p><p>
+		 update all internal rountines that uses intrinsic params
+		 should be called after u changed <code>IntrinsicParameters</code>
+		 </p></div><br/><br/><hr><br/><p></p><center class="copyright"><footer></footer><br/>Tue Nov 6 2012, 08:57 AM +03:00  </center></div></body></html><!--<br/>Tue Nov 6 2012, 08:57 AM +03:00  -->

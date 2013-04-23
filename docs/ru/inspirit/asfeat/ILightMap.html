@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../override.css" type="text/css"><meta name="keywords" content="ILightMap,ru.inspirit.asfeat.ILightMap,extractedSample,lib,mapBitmapData,mapRect,mapVector,addListener,addNormal,addReferenceObject,destroy,destroy,detect,getConfidence,getConfidenceMapInstance,getIntrinsicParams,getLSHStatistic,getLightMapInstance,getNormalColor,init,init,invalidate,removeListener,removeReferenceObject,resetDetection,setMatchThreshold,setMaxReferencesPerFrame,setMultiLevelMode,setNumTrackIterations,setReference,setUseLSHDictionary,setup,setup,setupIndexing,unmapSample,updateIntrinsicParams,updateMap"><title>ru.inspirit.asfeat.ILightMap</title></head><body><script language="javascript" type="text/javascript" src="../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'ILightMap - ASFEAT/IN2AR Documentation';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">API Documentation</td><td class="titleTableTopNav" align="right"><a href="../../../package-summary.html" onclick="loadClassListFrame('../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../class-summary.html" onclick="loadClassListFrame('../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../all-index-A.html" onclick="loadClassListFrame('../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../index.html?ru/inspirit/asfeat/ILightMap.html&amp;ru/inspirit/asfeat/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">ILightMap</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("ILightMap"); titleBar_setSubNav(false,true,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">ru.inspirit.asfeat</a></td></tr><tr><td class="classHeaderTableLabel">Interface</td><td class="classSignature">public  interface  ILightMap</td></tr></table><p></p><p></p><p></p>
+	 LightMap class interface
+	 <p></p><br/><hr></div><a name="propertySummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Properties</div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableProperty"><tr><th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#mapBitmapData" class="signatureLink">mapBitmapData</a> : BitmapData<div class="summaryTableDescription">[read-only] 
+		 Get irradiance light map BitmapData
+		 this can be used as shader texture to relight whole 3D scene
+		 do NOT dispose it
+		 </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#mapRect" class="signatureLink">mapRect</a> : Rectangle<div class="summaryTableDescription">[read-only] 
+		 Get light map BitmapData Rectangle
+		 </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#mapVector" class="signatureLink">mapVector</a> : Vector.&lt;uint&gt;<div class="summaryTableDescription">[read-only] 
+		 Get irradiance light map Vector
+		 </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr></table></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#addNormal()" class="signatureLink">addNormal</a>(src:BitmapData, normal:Vector3D, TLx:Number, TLy:Number, TRx:Number, TRy:Number, BRx:Number, BRy:Number, BLx:Number, BLy:Number):void</div><div class="summaryTableDescription">
+		 Update irradiance light map using screen image and normal to image marker
+		 image corners coordinates can be found in ASFEATReference
+		 
+		 </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getNormalColor()" class="signatureLink">getNormalColor</a>(normal:Vector3D, color:Vector.&lt;Number&gt;):void</div><div class="summaryTableDescription">
+		 Get light map color using image marker normal
+		 
+		 </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#init()" class="signatureLink">init</a>(refImg:BitmapData, sampWidth:int, sampHeight:int, nx:int, ny:int):void</div><div class="summaryTableDescription">
+		 Initiate light map with reference
+		 
+		 </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#invalidate()" class="signatureLink">invalidate</a>():void</div><div class="summaryTableDescription">
+         force lightmap bitmap update
+         </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setup()" class="signatureLink">setup</a>(mapSize:int = 128):void</div><div class="summaryTableDescription">
+		 Setup light map size and precalculate internal routines
+		 
+		 </div></td><td class="summaryTableOwnerCol">ILightMap</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><div class="detailSectionHeader">Property Detail</div><a name="propertyDetail"></a><a name="mapBitmapData"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">mapBitmapData</td><td class="detailHeaderType">property</td></tr></table><div class="detailBody"><code>mapBitmapData:BitmapData</code>&nbsp;&nbsp;[read-only] <p></p><p></p><p>
+		 Get irradiance light map <code>BitmapData</code>
+		 this can be used as shader texture to relight whole 3D scene
+		 do NOT dispose it
+		 </p><br/><span class="label"> Implementation </span><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public function get mapBitmapData():BitmapData</code><br/></div><a name="propertyDetail"></a><a name="mapRect"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">mapRect</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>mapRect:Rectangle</code>&nbsp;&nbsp;[read-only] <p></p><p></p><p>
+		 Get light map <code>BitmapData</code> Rectangle
+		 </p><br/><span class="label"> Implementation </span><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public function get mapRect():Rectangle</code><br/></div><a name="propertyDetail"></a><a name="mapVector"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">mapVector</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>mapVector:Vector.&lt;uint&gt;</code>&nbsp;&nbsp;[read-only] <p></p><p></p><p>
+		 Get irradiance light map <code>Vector</code>
+		 </p><br/><span class="label"> Implementation </span><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public function get mapVector():Vector.&lt;uint&gt;</code><br/></div><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="addNormal()"></a><a name="addNormal(flash.display.BitmapData,flash.geom.Vector3D,Number,Number,Number,Number,Number,Number,Number,Number)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">addNormal</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public function addNormal(src:BitmapData, normal:Vector3D, TLx:Number, TLy:Number, TRx:Number, TRy:Number, BRx:Number, BRy:Number, BLx:Number, BLy:Number):void</code><p></p><p></p><p>
+		 Update irradiance light map using screen image and normal to image marker
+		 image corners coordinates can be found in <code>ASFEATReference</code>
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">src</span>:BitmapData</code> &mdash; 	screen <code>BitmapData</code>
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">normal</span>:Vector3D</code> &mdash; normal to image marker surface
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">TLx</span>:Number</code> &mdash; 	Top Left x coordinate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">TLy</span>:Number</code> &mdash; 	Top Left y coordinate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">TRx</span>:Number</code> &mdash; 	Top Right x coordinate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">TRy</span>:Number</code> &mdash; 	Top Right y coordinate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">BRx</span>:Number</code> &mdash; 	Bottom Right x coordinate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">BRy</span>:Number</code> &mdash; 	Bottom Right y coordinate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">BLx</span>:Number</code> &mdash; 	Bottom Left x coordinate
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">BLy</span>:Number</code> &mdash; 	Bottom Left y coordinate
+		 </td></tr></table></p></div><a name="getNormalColor()"></a><a name="getNormalColor(flash.geom.Vector3D,Vector$Number)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getNormalColor</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function getNormalColor(normal:Vector3D, color:Vector.&lt;Number&gt;):void</code><p></p><p></p><p>
+		 Get light map color using image marker normal
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">normal</span>:Vector3D</code> &mdash; normal to image marker surface
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">color</span>:Vector.&lt;Number&gt;</code> &mdash; irradiance color [r, g, b]
+		 </td></tr></table></p></div><a name="init()"></a><a name="init(flash.display.BitmapData,int,int,int,int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">init</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function init(refImg:BitmapData, sampWidth:int, sampHeight:int, nx:int, ny:int):void</code><p></p><p></p><p>
+		 Initiate light map with reference
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">refImg</span>:BitmapData</code> &mdash; 	reference image
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">sampWidth</span>:int</code> &mdash; sample width used for light calculation (should be related to original image size)
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">sampHeight</span>:int</code> &mdash; sample height used for light calculation (should be related to original image size)
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">nx</span>:int</code> &mdash; 		number of horizontal bins the sample is divided
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">ny</span>:int</code> &mdash; 		number of vertical bins the sample is divided
+		 </td></tr></table></p></div><a name="invalidate()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">invalidate</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function invalidate():void</code><p></p><p></p><p>
+         force lightmap bitmap update
+         </p></div><a name="setup()"></a><a name="setup(int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setup</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public function setup(mapSize:int = 128):void</code><p></p><p></p><p>
+		 Setup light map size and precalculate internal routines
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">mapSize</span>:int</code> (default = <code>128</code>)<code></code> &mdash; map size (should be power of 2)
+		 </td></tr></table></p></div><br/><br/><hr><br/><p></p><center class="copyright"><footer></footer><br/>Tue Nov 6 2012, 08:57 AM +03:00  </center></div></body></html><!--<br/>Tue Nov 6 2012, 08:57 AM +03:00  -->
